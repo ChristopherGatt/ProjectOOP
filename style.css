@@ -1,0 +1,27 @@
+.container1 {
+  width: 20%;
+  float: left;
+  border: 5px, 5px, 5px, 5px bold black;
+}
+
+.container2 {
+  width: 20%;
+  float: right;
+  float: left;
+}
+
+.container3 {
+  width: 20%;
+}
+
+.container4 {
+  width: 20%;
+  float: right;
+  float: left;
+}
+
+.container5 {
+  width: 20%;
+  float: right;
+  float: left;
+}
