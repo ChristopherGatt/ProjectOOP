@@ -1,4 +1,12 @@
-# ProjectOOOP
+# ProjectOOP
+
+# User Story
+
+AS A manager
+I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles
+
+# Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
@@ -17,3 +25,34 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+
+## Screenshot
+
+## Pre-Requisites
+
+The application requires:
+[Jest](https://www.npmjs.com/package/jest)
+[Inquirer](https://www.npmjs.com/package/inquirer)
+
+# Work order
+
+# 1st create all necessary Folders and files
+
+Structure:
+
+.
+├── **tests**/ //jest tests
+│ ├── Employee.test.js
+│ ├── Engineer.test.js
+│ ├── Intern.test.js
+│ └── Manager.test.js
+├── dist/ // rendered output (HTML) and CSS style sheet  
+├── lib/ // classes
+├── src/ // template helper code
+├── .gitignore // indicates which folders and files Git should ignore
+├── index.js // runs the application
+└── package.json
+
+# 2nd code the index file including all classes (employee, manager, engineer, intern)
+
+# 3rd
