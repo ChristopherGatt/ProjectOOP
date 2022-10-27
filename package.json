@@ -1,8 +1,28 @@
 {
-  "dependencies": {
-    "inquirer": "^9.1.4"
+  "name": "projectoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   },
-  "devDependencies": {
-    "jest": "^29.2.1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherGatt/ProjectOOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherGatt/ProjectOOP/issues"
+  },
+  "homepage": "https://github.com/ChristopherGatt/ProjectOOP#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
   }
 }
